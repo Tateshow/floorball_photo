@@ -1,0 +1,88 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.logo {
+  background-color: black;
+  display: inline-block;
+}
+
+.logo img {
+  width: 100%;
+  display: block;
+  opacity: 0.5;
+}
+
+.logo h1 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  height: 2000px;
+  background: snow;
+}
+
+.contents {
+  display: flex;
+  padding: 30px;
+}
+
+.content {
+  padding-left: 10px;
+}
+
+.contents img {
+  width: 350px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.contents p {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+footer {
+  height: 130px;
+  background: darkslateblue;
+}
+
+footer h3 {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+footer p {
+  color: white;
+  font-size: 15px;
+  text-align: right;
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+}
